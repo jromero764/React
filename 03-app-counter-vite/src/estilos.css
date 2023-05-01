@@ -1,0 +1,24 @@
+.input-item{
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+.boton{
+    border-radius: 10px;
+
+}
+.borde-rojo{
+    border: 5px solid red;
+}
+.flex-container-column{
+    
+    border:5px solid black;
+    
+}
+.flex-container-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 80vh;
+    justify-content: center;
+    
+}
