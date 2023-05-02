@@ -5,9 +5,9 @@ import { useState } from 'react';
 export const App = ({titulo}) => {
 //LOGICA del componente-------------------------------------------------------------------------------------------------------------------->
 
-const [ counter ] = useState(0);
+const [ counter, setCounter ] = useState();
 const handleAdd = ()=>{
- 
+ setCounter(1);
 
 
   
