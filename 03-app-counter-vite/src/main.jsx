@@ -7,7 +7,7 @@ import './bootstrap/css/bootstrap.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 <React.StrictMode>
-    <App titulo='Formulario' />
+    <App  />
     
     
 </React.StrictMode>
