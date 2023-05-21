@@ -7,7 +7,7 @@ import ContactForm from './components/Formulario.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <ContactForm /> */}
+    
     <GifExpertApp />
   </React.StrictMode>,
 )

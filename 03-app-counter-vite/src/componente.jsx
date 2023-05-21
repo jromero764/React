@@ -7,11 +7,11 @@ export const App = ({titulo}) => {
 
 const [ counter, setCounter ] = useState();
 const handleAdd = ()=>{
- setCounter(1);
-
-
-  
+ setCounter(counter + 1);
 }
+const handleSub = ()=>{
+  setCounter(counter - 1);
+ }
 //VISTA del componente-------------------------------------------------------------------------------------------------------------------->
   return (
    
@@ -23,7 +23,7 @@ const handleAdd = ()=>{
         <input type="text" onClick={handleAdd} className="btn btn-primary w-25 mb-3" defaultValue='+1' />
       </div>
       <div className="row justify-content-center">
-        <input type="text" className="btn btn-primary w-25 mb-3" defaultValue='-1' />
+        <input type="text" onClick={handleSub} className="btn btn-primary w-25 mb-3" defaultValue='-1' />
       </div>
 
     </form>
